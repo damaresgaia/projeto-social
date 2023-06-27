@@ -41,3 +41,22 @@ iframe#tela {
     width: 269px;
     height: 471px;
 }
+
+section#redes-sociais {
+    text-align: right;
+}
+
+section#redes-sociais img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%; /*deixar os ícones redondos*/
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.411);
+    box-sizing: border-box; /*a borda vai fazer parte da caixa*/
+}
+
+section#redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.603);
+    transform: translate(-3px, -3px); /*negativos para ir para a esquerda*/
+    box-shadow: 5px 5px 10px black; /*mexe a sombra para o lado*/
+    transition: transform .5s, border 1s; /*movimentação de forma suave*/
+}
